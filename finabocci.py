@@ -4,4 +4,9 @@ for i in range (n):
     print(b)
     a,b = b, a+b
 
-    
+'''
+Compute
+the first n
+Fibonacci
+numbers  
+'''

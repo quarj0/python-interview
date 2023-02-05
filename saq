@@ -1,0 +1,18 @@
+'''
+use list as
+stack, array,
+and queue
+'''
+# as a list ...
+l = [3, 4]
+l += [5, 6] 
+# l = [3, 4, 5, 6]
+
+# ... as a stack ...
+l.append(10) # l = [4, 5, 6, 10]
+l.pop() # l = [4, 5, 6]
+
+
+# ... and as a queue
+l.insert(0, 5) # l = [5, 4, 5, 6]
+l.pop() # l = [5, 4, 5]

@@ -1,0 +1,8 @@
+def is_palindrome(phrase):
+    return phrase == phrase[::-1]
+print(is_palindrome("anna"))
+'''
+Check if a
+string is a
+palindrome
+'''
